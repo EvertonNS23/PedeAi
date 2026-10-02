@@ -178,6 +178,19 @@ body{
     margin-left: 10px;
     color:#171A19;
 }
+.cardItem {
+  padding: 20px;
+  border-radius: 8px;
+  margin: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* efeito hover para todos os cards */
+.cardItem:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
+
 
 .todosOsPedidos {
     border-left: 3px solid #8ee85d;
